@@ -1,20 +1,60 @@
-# snakeGame
+# Snake Game 🐍
 
-## Getting Started
+A simple **Snake Game** built using **Java Swing and AWT**. Control the snake, eat apples, and grow longer while avoiding collisions!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+## 📌 Features
+- Classic snake movement (Up, Down, Left, Right)
+- Randomly spawning apples
+- Score tracking
+- "Game Over" message displayed on-screen
+- Responsive UI with a grid-based layout
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠 Technologies Used
+- Java (JDK 8+ recommended)
+- Swing & AWT for GUI
+- Timer for game loop
+- Random class for apple placement
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🚀 How to Run
+### **Step 1: Clone the Repository**
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/SnakeGame.git
+cd SnakeGame
+```
 
-## Dependency Management
+### **Step 2: Compile and Run**
+```sh
+javac GameFrame.java
+java GameFrame
+```
+Or, if using an IDE like **Eclipse/IntelliJ**, open the project and run `SnakeGames.java`.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🎮 How to Play
+1. **Start the game**: The snake moves automatically.
+2. **Control the snake**:
+   - Arrow keys (`↑ ↓ ← →`) to move.
+3. **Eat apples**:
+   - Increases the score and snake length.
+4. **Game Over Conditions**:
+   - Hitting the wall.
+   - Biting itself.
+
+
+
+---
+
+## 🛠 Possible Enhancements
+- Add difficulty levels (increase speed over time)
+- Add sound effects
+- Implement leaderboard for high scores
+
+---
+
